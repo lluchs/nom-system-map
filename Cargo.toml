@@ -1,0 +1,16 @@
+[package]
+name = "nom-system-map"
+version = "0.1.0"
+authors = ["Lukas Werling <lukas@lwrl.de>"]
+edition = "2018"
+
+[[bench]]
+name = "system_map_benchmark"
+harness = false
+
+[dev-dependencies]
+criterion = "0.3"
+
+[dependencies]
+anyhow = "1"
+nom = "7"
